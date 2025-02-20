@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+    --gradient-pink: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    --gradient-purple: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+    --ease-out-overshoot: linear(0, 0.402 7.4%, 0.711 15.3%, 0.929 23.7%, 1.008 28.2%, 1.067 33%, 1.099 36.9%, 1.12 41%, 1.13 45.4%, 1.13 50.1%, 1.111 58.5%, 1.019 83.2%, 1.004 91.3%, 1)
+}
