@@ -29,7 +29,7 @@ function getWeatherInfo(weatherCode: number): WeatherCode {
           :src="getWeatherInfo(weatherData?.current.weather_code!).day.image" />
         <span class="-translate-y-5">{{
           getWeatherInfo(weatherData.current.weather_code!).day.description
-          }}</span>
+        }}</span>
       </div>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-7 gap-3 mt-5">
