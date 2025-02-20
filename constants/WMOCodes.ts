@@ -1,11 +1,6 @@
-// Thanks to https://gist.github.com/stellasphere/9490c195ed2b53c707087c8c2db4ec0c
-export interface WeatherCode {
-  day: {
-    description: string;
-    image: string;
-  };
-}
+import type { WeatherCode } from "~/types/shared/WeatherCode";
 
+// Thanks to https://gist.github.com/stellasphere/9490c195ed2b53c707087c8c2db4ec0c
 export const WMOCodes: Record<number, WeatherCode> = {
   0: {
     day: {
