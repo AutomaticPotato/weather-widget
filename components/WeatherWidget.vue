@@ -27,9 +27,9 @@ function getWeatherInfo(weatherCode: number): WeatherCode {
       <div class="flex flex-col">
         <img class="transition-all group-hover:scale-110 duration-300 ease-out-overshoot"
           :src="getWeatherInfo(weatherData?.current.weather_code!).day.image" />
-        <span class="-translate-y-5">{{
+        <span class="-translate-y-5 text-center">{{
           getWeatherInfo(weatherData.current.weather_code!).day.description
-        }}</span>
+          }}</span>
       </div>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-7 gap-3 mt-5">
